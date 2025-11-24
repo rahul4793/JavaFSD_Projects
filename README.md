@@ -102,6 +102,15 @@ All service layer logic is mock-tested and also covers error and edge cases.
 
 ---
 
+##  Screenshots
+<img width="1707" height="936" alt="Screenshot 2025-11-24 150809" src="https://github.com/user-attachments/assets/c46cef2e-34f4-41ac-939f-a6c87336943c" />
+<img width="1827" height="863" alt="Screenshot 2025-11-24 150745" src="https://github.com/user-attachments/assets/eecc463f-d0e6-4128-96d1-45d08047ca4b" />
+<img width="981" height="683" alt="Screenshot 2025-11-24 150317" src="https://github.com/user-attachments/assets/b4c2fcde-0f9b-4b6f-8a1a-b43e13d823f9" />
+<img width="1708" height="896" alt="Screenshot 2025-11-24 150256" src="https://github.com/user-attachments/assets/37e4f5ce-ccd7-4009-a736-f567cbd94666" />
+<img width="1918" height="728" alt="Screenshot 2025-11-24 150217" src="https://github.com/user-attachments/assets/09cfe649-a3b8-45be-9a41-fe2a178a5fa2" />
+<img width="1643" height="757" alt="Screenshot 2025-11-24 150032" src="https://github.com/user-attachments/assets/faad6351-0767-4db2-995b-804de0444cf2" />
+
+
 ##  Project Structure
 
 src/
