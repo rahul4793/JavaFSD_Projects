@@ -1,4 +1,4 @@
-# ProjectBanksystemSimulatorSpringBootMonolithMongoDB
+# ProjectBanksystemSimulatorSpringBootMongoDB
 
 A monolithic banking backend built using Spring Boot 3 and MongoDB.  
 Includes full REST API, documentation, setup instructions, and test cases.
