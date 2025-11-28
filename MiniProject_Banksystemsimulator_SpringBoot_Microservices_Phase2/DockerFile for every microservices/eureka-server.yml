@@ -1,0 +1,24 @@
+# --- 1. BUILDER STAGE ---
+FROM eclipse-temurin:17-jdk-jammy AS builder
+WORKDIR /app
+
+# Copy the pom.xml and source code
+COPY pom.xml .
+COPY src ./src
+
+# Package the application (skipping tests for speed)
+RUN mvn clean package -DskipTests
+
+# --- 2. RUNTIME STAGE ---
+# Use a lightweight JRE base image for the final image
+FROM eclipse-temurin:17-jre-jammy AS runtime
+WORKDIR /app
+
+# Copy the built JAR from the builder stage
+COPY --from=builder /app/target/*.jar app.jar
+
+# Expose the server port
+EXPOSE 8761
+
+# Command to run the JAR file
+ENTRYPOINT ["java", "-jar", "app.jar"]
